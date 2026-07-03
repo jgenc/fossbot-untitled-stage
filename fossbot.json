@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 1,
+  "schemaVersion": 2,
+  "kind": "fossbot-stage",
+  "title": "Untitled Stage",
+  "description": "",
+  "author": {
+    "platformUsername": "admin",
+    "githubUsername": "jgenc"
+  },
+  "storage": {
+    "provider": "github_app",
+    "repoOwner": "jgenc",
+    "repoName": "fossbot-untitled-stage"
+  },
+  "validation": {
+    "state": "unvalidated",
+    "commitSha": null,
+    "checkedAt": null
+  }
+}
