@@ -3,7 +3,7 @@
   "title": "Untitled Stage",
   "description": "",
   "createdAt": "2026-07-03T11:22:47.994Z",
-  "updatedAt": "2026-07-03T11:22:50.575Z",
+  "updatedAt": "2026-07-03T11:23:42.849Z",
   "config": [
     {
       "type": "skybox",
@@ -26,6 +26,81 @@
         25
       ],
       "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "type": "base",
+      "dimensions": [
+        0.5,
+        0.5
+      ],
+      "material": {
+        "color": "#43a047"
+      },
+      "position": [
+        0,
+        -3.3
+      ],
+      "name": "target"
+    },
+    {
+      "type": "text",
+      "name": "target_label",
+      "text": "target",
+      "position": [
+        0,
+        0.016,
+        -3.3
+      ],
+      "scale": 0.4,
+      "onFloor": true,
+      "color": "black",
+      "style": {
+        "backgroundVisible": true,
+        "backgroundColor": "#ffffff",
+        "backgroundOpacity": 0.9,
+        "borderVisible": true,
+        "borderColor": "#0f172a",
+        "borderWidth": 8,
+        "fontSize": 56
+      }
+    },
+    {
+      "type": "cube",
+      "dimensions": [
+        4.8,
+        0.8,
+        0.1
+      ],
+      "material": {
+        "color": "#607d8b"
+      },
+      "position": [
+        -1.5,
+        0.3,
+        -1.5
+      ],
+      "orientation": [
+        0,
+        -0.7854,
+        0
+      ],
+      "name": "wall",
+      "castShadow": true,
+      "mass": 0,
+      "immovable": true
+    },
+    {
+      "type": "fossbot",
+      "position": [
+        -2.8,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
         0,
         0
       ]
@@ -60,6 +135,55 @@
         0
       ]
     },
-    "objects": []
+    "objects": [
+      {
+        "id": "stage_mr4uhg1e_qbhhoe7",
+        "kind": "fossbot",
+        "semanticKind": "robotSpawn",
+        "name": "robot spawn",
+        "position": [
+          -2.8,
+          0,
+          0
+        ],
+        "rotationY": 0
+      },
+      {
+        "id": "stage_mr4uhhpy_e23f9s5",
+        "kind": "base",
+        "semanticKind": "target",
+        "name": "target",
+        "position": [
+          0,
+          0,
+          -3.3
+        ],
+        "dimensions": [
+          0.5,
+          0.5
+        ],
+        "color": "#43a047"
+      },
+      {
+        "id": "stage_mr4uhjfl_1noizl6",
+        "kind": "cube",
+        "semanticKind": "wall",
+        "name": "wall",
+        "position": [
+          -1.5,
+          0.3,
+          -1.5
+        ],
+        "rotationY": -0.7854,
+        "dimensions": [
+          4.8,
+          0.8,
+          0.1
+        ],
+        "color": "#607d8b",
+        "mass": 0,
+        "immovable": true
+      }
+    ]
   }
 }
