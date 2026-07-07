@@ -3,7 +3,7 @@
   "title": "Untitled Stage",
   "description": "",
   "createdAt": "2026-07-03T11:22:47.994Z",
-  "updatedAt": "2026-07-03T11:23:42.849Z",
+  "updatedAt": "2026-07-07T12:26:25.976Z",
   "config": [
     {
       "type": "skybox",
@@ -91,6 +91,34 @@
       "castShadow": true,
       "mass": 0,
       "immovable": true
+    },
+    {
+      "type": "model",
+      "filename": "assets/54920ad8678cf93e.obj",
+      "format": "stl",
+      "position": [
+        0.5,
+        0.3,
+        0
+      ],
+      "scale": 0.00784281,
+      "normalize": true,
+      "nativeDimensions": [
+        63.752685546875,
+        39.516265869140625,
+        46.5
+      ],
+      "orientation": [
+        -1.5708,
+        0,
+        0
+      ],
+      "color": "#9aa8b6",
+      "name": "wdt+v3_split",
+      "castShadow": true,
+      "mass": 0.4,
+      "immovable": false,
+      "collision": "convexHull"
     },
     {
       "type": "fossbot",
@@ -183,6 +211,37 @@
         "color": "#607d8b",
         "mass": 0,
         "immovable": true
+      },
+      {
+        "id": "stage_mramh7ob_kktfuz9",
+        "kind": "model",
+        "semanticKind": "customObject",
+        "name": "wdt+v3_split",
+        "filename": "assets/54920ad8678cf93e.obj",
+        "format": "stl",
+        "originalFileName": "wdt+v3_split.stl",
+        "position": [
+          0.5,
+          0.3,
+          0
+        ],
+        "rotationY": 0,
+        "scale": 0.00784281,
+        "normalize": true,
+        "nativeDimensions": [
+          63.752685546875,
+          39.516265869140625,
+          46.5
+        ],
+        "color": "#9aa8b6",
+        "mass": 0.4,
+        "immovable": false,
+        "collision": "convexHull",
+        "orientation": [
+          -1.5708,
+          0,
+          0
+        ]
       }
     ]
   }
