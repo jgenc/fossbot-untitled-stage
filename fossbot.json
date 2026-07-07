@@ -17,5 +17,12 @@
     "state": "unvalidated",
     "commitSha": null,
     "checkedAt": null
+  },
+  "marketplace": {
+    "published": true,
+    "entryPath": "stages/jgenc/fossbot-untitled-stage.json",
+    "repo": "jgenc/fossbot-marketplace",
+    "commitSha": "d095fe70a0861ea5873354be20ed72d8655b2d7d",
+    "updatedAt": "2026-07-07T14:41:01Z"
   }
 }
